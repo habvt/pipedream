@@ -29,6 +29,7 @@ import sgd
 from datetime import datetime
 import pytz
 import time
+tz_NY = pytz.timezone('America/New_York')
 
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
 parser.add_argument('--data_dir', type=str,
@@ -311,7 +312,7 @@ def main():
         validate(val_loader, r, args.start_epoch-1)
     
 
-    tz_NY = pytz.timezone('America/New_York') 
+     
     start_training = time.time()
     print("Time when training started:",datetime.now(tz_NY).strftime("%H:%M:%S.%f")[:-3])
     for epoch in range(args.start_epoch, args.epochs):
@@ -340,9 +341,9 @@ def main():
                     'best_prec1': best_prec1,
                     'optimizer' : optimizer.state_dict(),
                 }, args.checkpoint_dir, r.stage)
-     end_training = time.time()
-     print("Time when training finished:",datetime.now(tz_NY).strftime("%H:%M:%S.%f")[:-3])
-     print("Elapsed training time:", end_training - start_training)
+    end_training = time.time()
+    print("Time when training finished:",datetime.now(tz_NY).strftime("%H:%M:%S.%f")[:-3])
+    print("Elapsed training time:", end_training - start_training)
 
 def train(train_loader, r, optimizer, epoch):
     batch_time = AverageMeter()
