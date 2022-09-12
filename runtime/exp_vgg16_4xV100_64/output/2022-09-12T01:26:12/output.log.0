@@ -1,0 +1,802 @@
+Finished initializing process group; backend: gloo, rank: 0, world_size: 4
+Replicating stage: ranks=3, module_size=775424.000
+Send ranks:  {'out0': [3], 'target': [3]}
+Receive ranks:  {}
+Setting up process groups for broadcasts...
+Start of data loading:  21:28:00.208
+elapsed time for Normalize:  7.3909759521484375e-06
+End of data pre-processing : 254.09411001205444
+Time when training started: 21:32:14.303
+Data loading start time for stage:  0 21:32:14.304
+Data loading end time for stage:  0 21:32:14.607
+Elapsed data loading time:  0.3035244941711426
+Letting in 1 warm-up minibatches
+Running training for 6672 minibatches
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 0 	Learning rate: 0.010000
+Epoch: [0][0/6672]	Memory: 8.550 (9.475)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.008
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 100 	Learning rate: 0.010000
+Epoch: [0][100/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 200 	Learning rate: 0.010000
+Epoch: [0][200/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 300 	Learning rate: 0.010000
+Epoch: [0][300/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 400 	Learning rate: 0.010000
+Epoch: [0][400/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 500 	Learning rate: 0.010000
+Epoch: [0][500/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 600 	Learning rate: 0.010000
+Epoch: [0][600/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 700 	Learning rate: 0.010000
+Epoch: [0][700/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 800 	Learning rate: 0.010000
+Epoch: [0][800/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 900 	Learning rate: 0.010000
+Epoch: [0][900/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1000 	Learning rate: 0.010000
+Epoch: [0][1000/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1100 	Learning rate: 0.010000
+Epoch: [0][1100/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1200 	Learning rate: 0.010000
+Epoch: [0][1200/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1300 	Learning rate: 0.010000
+Epoch: [0][1300/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1400 	Learning rate: 0.010000
+Epoch: [0][1400/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1500 	Learning rate: 0.010000
+Epoch: [0][1500/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1600 	Learning rate: 0.010000
+Epoch: [0][1600/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1700 	Learning rate: 0.010000
+Epoch: [0][1700/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1800 	Learning rate: 0.010000
+Epoch: [0][1800/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 1900 	Learning rate: 0.010000
+Epoch: [0][1900/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2000 	Learning rate: 0.010000
+Epoch: [0][2000/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2100 	Learning rate: 0.010000
+Epoch: [0][2100/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2200 	Learning rate: 0.010000
+Epoch: [0][2200/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2300 	Learning rate: 0.010000
+Epoch: [0][2300/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2400 	Learning rate: 0.010000
+Epoch: [0][2400/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2500 	Learning rate: 0.010000
+Epoch: [0][2500/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2600 	Learning rate: 0.010000
+Epoch: [0][2600/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2700 	Learning rate: 0.010000
+Epoch: [0][2700/6672]	Memory: 8.706 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2800 	Learning rate: 0.010000
+Epoch: [0][2800/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 2900 	Learning rate: 0.010000
+Epoch: [0][2900/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3000 	Learning rate: 0.010000
+Epoch: [0][3000/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3100 	Learning rate: 0.010000
+Epoch: [0][3100/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3200 	Learning rate: 0.010000
+Epoch: [0][3200/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3300 	Learning rate: 0.010000
+Epoch: [0][3300/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3400 	Learning rate: 0.010000
+Epoch: [0][3400/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3500 	Learning rate: 0.010000
+Epoch: [0][3500/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3600 	Learning rate: 0.010000
+Epoch: [0][3600/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3700 	Learning rate: 0.010000
+Epoch: [0][3700/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3800 	Learning rate: 0.010000
+Epoch: [0][3800/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 3900 	Learning rate: 0.010000
+Epoch: [0][3900/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4000 	Learning rate: 0.010000
+Epoch: [0][4000/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4100 	Learning rate: 0.010000
+Epoch: [0][4100/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4200 	Learning rate: 0.010000
+Epoch: [0][4200/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4300 	Learning rate: 0.010000
+Epoch: [0][4300/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4400 	Learning rate: 0.010000
+Epoch: [0][4400/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4500 	Learning rate: 0.010000
+Epoch: [0][4500/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4600 	Learning rate: 0.010000
+Epoch: [0][4600/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4700 	Learning rate: 0.010000
+Epoch: [0][4700/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4800 	Learning rate: 0.010000
+Epoch: [0][4800/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 4900 	Learning rate: 0.010000
+Epoch: [0][4900/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.001
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 5000 	Learning rate: 0.010000
+Epoch: [0][5000/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 5100 	Learning rate: 0.010000
+Epoch: [0][5100/6672]	Memory: 8.655 (12.845)
+Backward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 51380224.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 0.000 bytes
+Optimizer step took: 0.002
+Forward Stats:
+	 compute_time 0.000 seconds
+	 receive_tensors 0.000 seconds
+	 receive_tensors_size 0.000 bytes
+	 send_tensors 0.000 seconds
+	 send_tensors_size 51380736.000 bytes
+Epoch: 0 Step 5200 	Learning rate: 0.010000
+Epoch: [0][5200/6672]	Memory: 8.655 (12.845)

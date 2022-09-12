@@ -1,0 +1,15 @@
+678b195459269e62164842cfc9c462e0178c5204
+diff --git a/runtime/driver.py b/runtime/driver.py
+index 47d82e5..d0af89c 100644
+--- a/runtime/driver.py
++++ b/runtime/driver.py
+@@ -194,7 +194,8 @@ if __name__ == "__main__":
+             machine_file_fh.write(worker.ip + '\n')
+     machine_file_fh.close()
+ 
+-    main_runtime_filename = 'main_with_runtime.py'
++    #main_runtime_filename = 'main_with_runtime.py'
++    main_runtime_filename = 'time_main_with_runtime.py'
+ 
+     runtime_cmd_preamble_list = []
+     if args.launch_single_container and CONFIG_FILE in configurations:

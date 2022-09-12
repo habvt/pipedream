@@ -194,7 +194,8 @@ if __name__ == "__main__":
             machine_file_fh.write(worker.ip + '\n')
     machine_file_fh.close()
 
-    main_runtime_filename = 'main_with_runtime.py'
+    #main_runtime_filename = 'main_with_runtime.py'
+    main_runtime_filename = 'time_main_with_runtime.py'
 
     runtime_cmd_preamble_list = []
     if args.launch_single_container and CONFIG_FILE in configurations:
